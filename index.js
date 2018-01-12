@@ -17,11 +17,11 @@ function currentLine(line) {
   } else {
     var place = []
     for (var i = 0; i < line.length; i++) {
-       place.push(`${i + 1}. ${line[i]}`)   
+       place.push(`${i + 1}. ${line[i]}`)
     }
     return `The line is currently: ${place.join(', ')}`
 
   }
-  
-  
+
+
 }
